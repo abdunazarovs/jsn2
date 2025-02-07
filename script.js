@@ -1,5 +1,7 @@
-// alert confirm prompt
 
+alert("hELLO WORLD!");
+
+// alert confirm prompt
 //const message=alert('HELLO WORLD');
 //console.log(message);
 // confirm inglizchadan tasdiqlash va ikki xil malumot qaytaradi yoki true yoki false 
@@ -19,7 +21,7 @@ let a='Hello';
 //a=Number(a);
 let b=prompt("ikkinCHI SON");
 //b=Number(b);
-let c=a-b;
+let c=a-b;s999
 // 1usul prompt sozini oldiga +
 // 2usul prompt ovolas paski qatorga Number funksiyasini yozb olasiz
 // minusda string ham amal qilyapti lekin plus ishlamayapti

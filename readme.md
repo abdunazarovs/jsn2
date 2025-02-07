@@ -1,3 +1,3 @@
-//windows menu (alert confirm)
+//windows menu (alert confirm propmt) done
 // operators
 //interpolatsiya
