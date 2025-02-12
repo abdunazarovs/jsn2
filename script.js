@@ -47,13 +47,13 @@
  //if 
  // boolen true false  -> nimadir false else 
  // if(meni ayam ) -> oyin oynaladi agar ob qoysachi oynalmedi ,agar stadion gaplashse  futbol oynemiz bomasachi barbr 
-let a=5;
- if(a>5){  // true bolsa if qismini 
-    console.log('a 5 dan katta');
+let a=prompt('Sonni kiriting');
+a=Number(a);
+if(a%2==1){  // true bolsa if qismini 
+  console.log('Toq son');
+    
 } 
-else if(a==5){   
-      console.log('5ga teng');
-}  
 else {     // false bolsa else 
-    console.log('5dan kichik');
+    console.log('juft son');
 }
+
