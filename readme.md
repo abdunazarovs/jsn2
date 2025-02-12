@@ -4,3 +4,8 @@
 
 
 //jsn2 faylga etbor bermemiz bu shunchaki video darslik uchun ishlatilgan fayl 
+
+
+
+12.02
+// if operators

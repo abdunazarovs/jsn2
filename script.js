@@ -1,5 +1,5 @@
 
-alert("hELLO WORLD!");
+//alert("hELLO WORLD!");
 
 // alert confirm prompt
 //const message=alert('HELLO WORLD');
@@ -17,13 +17,22 @@ alert("hELLO WORLD!");
 // char 
 // string bu so'zlar bilan ishlash uchun ishlatamiz  u chardan farqi xohlasez 1ta harfdi yozin xohlasez butun gapdi
 
-let a='Hello';
+//let a='Hello';
 //a=Number(a);
-let b=prompt("ikkinCHI SON");
+//let b=prompt("ikkinCHI SON");
 //b=Number(b);
-let c=a-b;s999
+//let c=a-b;s999
 // 1usul prompt sozini oldiga +
 // 2usul prompt ovolas paski qatorga Number funksiyasini yozb olasiz
 // minusda string ham amal qilyapti lekin plus ishlamayapti
 //minusda ozgaruvchidan bittasi string bop qosa NaN qaytaradi (Raqam emas)
-console.log(c);
+//console.log(c);
+
+
+// operators 
+ // + - * / % = ++ --
+
+ let a=4;
+ let b=5;
+ let c=a+b;
+ console.log(c);
