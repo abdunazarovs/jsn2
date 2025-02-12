@@ -30,9 +30,30 @@
 
 
 // operators 
- // + - * / % = ++ --
+ // + - * / % = ++ --  += -= *=
 
- let a=4;
- let b=5;
- let c=a+b;
- console.log(c);
+ // a+=4  a=a+b  -=b a=a*b c+=b  c=c+b
+// a=a+4 a+=4;
+ // increment increase  +1
+ // i++ 
+
+ //var a=4;
+ //v
+ //var c=a--;
+
+ //console.log(b);
+
+
+ //if 
+ // boolen true false  -> nimadir false else 
+ // if(meni ayam ) -> oyin oynaladi agar ob qoysachi oynalmedi ,agar stadion gaplashse  futbol oynemiz bomasachi barbr 
+let a=5;
+ if(a>5){  // true bolsa if qismini 
+    console.log('a 5 dan katta');
+} 
+else if(a==5){   
+      console.log('5ga teng');
+}  
+else {     // false bolsa else 
+    console.log('5dan kichik');
+}
