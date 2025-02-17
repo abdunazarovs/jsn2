@@ -63,12 +63,19 @@
 // 
 // while -> davomida  misol uchun men dars otrgan paytim ,pul sanashyapti 
 //
-let a=2;
-while(a<=10)   // buyruq 
-{
-  console.log(a);
-  a=a+2;
+//let a=2;
+//while(a<10)   // buyruq 
+//{
+ // console.log(a);
+ // a=a+2;  //a ++
          // amal 
-}
-// amalimi oxrgi qiymati true bolsa chqb ketadi
+//}
+// amalimi oxrgi qiymati false bolsa chqb ketadi
+
+let a=3;
+do{
+  console.log(a);
+  a++;
+}  // true likka tekshiradi keyin false
+///while(a<10);
 
