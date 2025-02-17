@@ -47,13 +47,28 @@
  //if 
  // boolen true false  -> nimadir false else 
  // if(meni ayam ) -> oyin oynaladi agar ob qoysachi oynalmedi ,agar stadion gaplashse  futbol oynemiz bomasachi barbr 
-let a=prompt('Sonni kiriting');
-a=Number(a);
-if(a%2==1){  // true bolsa if qismini 
-  console.log('Toq son');
+//let a=prompt('Sonni kiriting');
+//a=Number(a);
+//if(a%2==1){  // true bolsa if qismini 
+ // console.log('Toq son');
     
-} 
-else {     // false bolsa else 
-    console.log('juft son');
+//} 
+//else {     // false bolsa else 
+   // console.log('juft son');
+//}
+
+// takrorlanish 
+// for while do while 
+
+// 
+// while -> davomida  misol uchun men dars otrgan paytim ,pul sanashyapti 
+//
+let a=2;
+while(a<=10)   // buyruq 
+{
+  console.log(a);
+  a=a+2;
+         // amal 
 }
+// amalimi oxrgi qiymati true bolsa chqb ketadi
 

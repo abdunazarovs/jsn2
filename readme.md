@@ -9,3 +9,6 @@
 
 12.02
 // if operators
+
+17.02 
+// sikllar for do while ,while 
