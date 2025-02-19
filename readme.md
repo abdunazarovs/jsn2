@@ -12,3 +12,7 @@
 
 17.02 
 // sikllar for do while ,while 
+
+
+// 19.02
+// for 

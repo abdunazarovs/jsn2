@@ -72,10 +72,33 @@
 //}
 // amalimi oxrgi qiymati false bolsa chqb ketadi
 
-let a=3;
-do{
-  console.log(a);
-  a++;
-}  // true likka tekshiradi keyin false
-///while(a<10);
+//let a=3;
+//do{
+ // console.log(a);
+ // a++;
+//}  // true likka tekshiradi keyin false
+//
+// 
+// 
+//while(a<10);
+
+
+//for - ? for sikl sikl bu takrorlanish
+
+// abdunazar muslimbek omadillo -> uppercase 
+// uppercase 
+// bmw toyota kia gm <br> 
+
+//const car=["BMW","VOLVO","TOYOTA","CHEVROLET","FERRARI"];
+// array  massiv  
+
+
+//let text="";
+for(let i=0;i<car.length;i++)
+{
+    text+=car[i]+"<br>";
+}
+document.getElementById("demo").innerHTML=text;
+
+
 
