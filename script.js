@@ -94,11 +94,25 @@
 
 
 //let text="";
-for(let i=0;i<car.length;i++)
-{
-    text+=car[i]+"<br>";
+//for(let i=0;i<car.length;i++)
+//{
+    //text+=car[i]+"<br>";
+//}
+//
+// document.getElementById("demo").innerHTML=text;
+
+let a=6;
+for(let i=1;i<a;i++)
+{  
+  if(i%2==0)
+  {
+    console.log()
+  }
+    console.log(i);
 }
-document.getElementById("demo").innerHTML=text;
 
+// let i=0 yoki 1  ;i<a.lenght ;i<a ;i<=a ;i++
 
+// 1 6 da  -> 2 
+// do{ code  a++;} while()
 
