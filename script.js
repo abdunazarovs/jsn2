@@ -117,34 +117,59 @@
 // 1 6 da  -> 2 
 // do{ code  a++;} while()
 
-let kun = 9;   // 5kungi  malumot kere
-switch (kun)   // qavsdi ichi bir xil bolish ozgaruvchi bilan
-{
+//let kun = 9;   // 5kungi  malumot kere
+//switch (kun)   // qavsdi ichi bir xil bolish ozgaruvchi bilan
+//{
+ // case 1:
+  //  console.log("dushanba");
+   // break;  // toxtatish
+ // case 2:
+   // console.log("seshanba");
+  //  break;
+ // case 3:
+ //   console.log("chorshanba");
+ //   break;
+ // case 4:
+ //   console.log("payshanba");
+  //  break;
+  //  case 5:
+  //  console.log("juma");
+  //  break;
+  //  case 6:
+  //  console.log("shanba");
+  //   break;
+  //   case 7:
+  //  console.log("yakshanba");
+  //  break;
+  //  default:
+  //    console.log("brat adashb qoldiz");
+  //    break;
+
+
+
+//
+
+let day;  // saqlanmagan 
+switch (new Date().getDay()) {  //  .getday()  vazifasi bugungi kundi chiqarb bersh 0
+  case 0:
+    day = "yakshanba";
+    break;
   case 1:
-    console.log("dushanba");
-    break;  // toxtatish
+    day = "Monday";
+    break;
   case 2:
-    console.log("seshanba");
+    day = "Tuesday";
     break;
   case 3:
-    console.log("chorshanba");
+    day = "Wednesday";
     break;
   case 4:
-    console.log("payshanba");
+    day = "Thursday";
     break;
-    case 5:
-    console.log("juma");
+  case 5:
+    day = "Friday";
     break;
-    case 6:
-    console.log("shanba");
-     break;
-     case 7:
-    console.log("yakshanba");
-    break;
-    default:
-      console.log("brat adashb qoldiz");
-      break;
-
-
-
+  case  6:
+    day = "Saturday";
 }
+document.getElementById("demo").innerHTML = "Today is " + day;
