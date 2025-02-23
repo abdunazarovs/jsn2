@@ -16,3 +16,8 @@
 
 // 19.02
 // for 
+
+
+// 23.02 
+// switch case statement jsda
+// if (day==1){ console.log("zb kunu bugun")}
