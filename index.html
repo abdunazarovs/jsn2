@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>onchange Event Example</title>
+<title>onchange Example</title>
 </head>
 <body>
 
 <label for="mySelect">Choose an option:</label>
-<select id="mySelect">
-  <option value="option1">Option 1</option>
-  <option value="option2">Option 2</option>
-  <option value="option3">Option 3</option>
+<select id="mySelect" onchange="myFunction()">
+  <option value="option1">E-mail</option>
+  <option value="option2">Female</option>
+  <option value="option3">Male</option>
 </select>
 
 <p id="demo"></p>
 
-<label for="myInput">Type something:</label>
-<input type="text" id="myInput">
-
+<input type="text" id="myInput" onchange="inputFunction()">
 <p id="inputDemo"></p>
-<button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>  // jsdi funksiyalari 
-<script src="/script.js"></script>
+
+<script>
+function myFunction() {
+  let x = document.getElementById("mySelect").value;
+  document.getElementById("demo").innerHTML = "Your gender is: " + x;
+}
+
+function inputFunction() {
+  let y = document.getElementById("myInput").value;
+  document.getElementById("inputDemo").innerHTML = "You typed: " + y;
+}
+</script>
 
 </body>
 </html>

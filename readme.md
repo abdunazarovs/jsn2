@@ -29,3 +29,6 @@
 // html strukturada ozgarish 
 // onclick onchange button bilan 
 //onload
+<button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>  // jsdi funksiyalari 
+
+//optionda value boladi

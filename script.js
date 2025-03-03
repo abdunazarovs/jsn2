@@ -179,13 +179,17 @@ s//witch (new Date().getDay()) {  //  .getday()  vazifasi bugungi kundi chiqarb 
 
 document.getElementById("mySelect").onchange = function() {
   myFunction();
-};
+};  
+
+// optionlardi ozgartirish onchangega misol  onchange faqat  
 
 function myFunction() {
   let x = document.getElementById("mySelect").value;
   document.getElementById("demo").innerHTML = "You selected: " + x;
 }
+//myfunction  optionlardi almashtirish uchun
 
+//
 
 document.getElementById("myInput").onchange = function() {
   inputFunction();
