@@ -149,27 +149,50 @@
 
 //
 
-let day;  // saqlanmagan 
-switch (new Date().getDay()) {  //  .getday()  vazifasi bugungi kundi chiqarb bersh 0
-  case 0:
-    day = "yakshanba";
-    break;
-  case 1:
-    day = "Monday";
-    break;
-  case 2:
-    day = "Tuesday";
-    break;
-  case 3:
-    day = "Wednesday";
-    break;
-  case 4:
-    day = "Thursday";
-    break;
-  case 5:
-    day = "Friday";
-    break;
-  case  6:
-    day = "Saturday";
+//let day;  // saqlanmagan 
+s//witch (new Date().getDay()) {  //  .getday()  vazifasi bugungi kundi chiqarb bersh 0
+ // case 0:
+  //  day = "yakshanba";
+  //  break;
+ // case 1:
+  //  day = "Monday";
+  //  break;
+ // case 2:
+ //   day = "Tuesday";
+  //  break;
+//  case 3:
+ //   day = "Wednesday";
+ //   break;
+ // case 4:
+  //  day = "Thursday";
+  //  break;
+  //case 5:
+  //  day = "Friday";
+   // break;
+  // case  6:
+   // day = "Saturday";
+//}
+//document.getElementById("demo").innerHTML = "Today is " + day;
+
+
+
+
+document.getElementById("mySelect").onchange = function() {
+  myFunction();
+};
+
+function myFunction() {
+  let x = document.getElementById("mySelect").value;
+  document.getElementById("demo").innerHTML = "You selected: " + x;
 }
-document.getElementById("demo").innerHTML = "Today is " + day;
+
+
+document.getElementById("myInput").onchange = function() {
+  inputFunction();
+};
+
+function inputFunction() {
+    let inputVal = document.getElementById("myInput").value;
+    document.getElementById("inputDemo").innerHTML = "You entered: " + inputVal;
+
+}

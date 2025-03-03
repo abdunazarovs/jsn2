@@ -21,3 +21,11 @@
 // 23.02 
 // switch case statement jsda
 // if (day==1){ console.log("zb kunu bugun")}
+
+
+03.03 
+// events
+//partymas 
+// html strukturada ozgarish 
+// onclick onchange button bilan 
+//onload

@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>js n2</title>
+<title>onchange Event Example</title>
 </head>
 <body>
-    <p id="demo">BMW</p>
-    
+
+<label for="mySelect">Choose an option:</label>
+<select id="mySelect">
+  <option value="option1">Option 1</option>
+  <option value="option2">Option 2</option>
+  <option value="option3">Option 3</option>
+</select>
+
+<p id="demo"></p>
+
+<label for="myInput">Type something:</label>
+<input type="text" id="myInput">
+
+<p id="inputDemo"></p>
+<button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>  // jsdi funksiyalari 
+<script src="/script.js"></script>
+
 </body>
-<script src="script.js"></script>
 </html>
